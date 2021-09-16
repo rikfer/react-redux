@@ -1,0 +1,38 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint",
+        "react",
+        "react-hooks"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [
+                    ".jsx",
+                    ".ts",
+                    ".tsx"
+                ]
+            }
+        }
+    },
+    "rules": {
+        "no-unused-vars": "off",
+        "@typescript-eslint/ban-types": "off",
+        "no-debugger": "warn",
+        "no-multiple-empty-lines": [
+            "warn",
+            {
+                "max": 1,
+                "maxEOF": 0
+            }
+        ],
+        "@typescript-eslint/no-explicit-any": "warn",
+        "prefer-const": "warn",
+        "semi": "warn"
+    }
+}
