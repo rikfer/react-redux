@@ -6,6 +6,9 @@
 * Finally, I reused some scripts that I usually work with, such as axiosManager.ts, which is already developed to be implemented with Typescript interfaces.
 
 ## Available Scripts
+To begin you must first install all dependencies by running: 
+
+### `npm install`
 
 In the project directory, you can run:
 
